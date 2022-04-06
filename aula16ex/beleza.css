@@ -1,0 +1,27 @@
+body{
+    background: rgb(47, 161, 206);
+
+
+}
+header{
+    font-style: italic ;
+    text-align: center;
+    
+}   
+section{ 
+    background: rgb(242, 254, 255);
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+    font: normal 11pt Arial;
+    margin: auto;
+    padding: 10px;
+    font:normal 12pt Arial;
+}select#quadro{
+    width: 150px;
+}
+
+footer{
+    font-style: italic;
+    text-align: center
+} 

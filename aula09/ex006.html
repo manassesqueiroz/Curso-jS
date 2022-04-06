@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eventos DOM</title> <style> body{
+        background: blueviolet;
+
+
+        }div#rpg {
+            font: normal 11pt arial;
+            background: white;
+            color: blue;
+
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+      
+    
+    </style>
+        
+ </head>   
+
+<body>
+    <div id="rpg">
+        Acessar...
+
+    </div>
+<script>
+var rp = document.getElementById('rpg')
+    rp.addEventListener('click', clicar)
+    rp.addEventListener('mouseenter', entrar)
+    rp.addEventListener('mouseout', sair)
+         function clicar (){
+     rp.innerText =' Nem sei programar ainda..' 
+     rp.style.background = 'green'
+         }
+        function entrar(){
+     rp.innerText = 'Entrou...'
+     rp.style.color= 'pink'   }
+        function sair() {
+     rp.innerText='saiu...'
+     rp.style.background= 'blueviolet'   }    
+        
+    
+
+</script>
+</body>
+</html>
