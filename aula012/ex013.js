@@ -14,7 +14,7 @@ case 0:
     console.log('DOMINGO, hoje e seu dia de aproveitar...')
      break
 case 1:
-    console.log('SEGUNDA, hoje tu tem que estudar, pra ser alquem na vida..')
+    console.log('SEGUNDA, hoje tu tem que estudar, pra ser alguem na vida..')
      break
 case 2:
     console.log ('TERÇA, bora estudar quem ganha dinheiro dormindo é puta...') 
